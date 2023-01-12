@@ -1,0 +1,16 @@
+{
+  "name": "ip-address-tracker-master",
+  "version": "1.0.0",
+  "license": "MIT",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel --open",
+    "build": "parcel build --out-dir=build"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.3"
+  }
+}
