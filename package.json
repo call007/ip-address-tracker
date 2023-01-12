@@ -5,7 +5,8 @@
   "source": "index.html",
   "scripts": {
     "start": "parcel --open",
-    "build": "parcel build --out-dir=build"
+    "prebuild": "rm -rf dist",
+    "build": "parcel build"
   },
   "devDependencies": {
     "parcel": "^2.8.2"
