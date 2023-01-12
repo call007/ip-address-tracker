@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "license": "MIT",
   "source": "index.html",
-  "main": "dist/index.html",
   "scripts": {
     "start": "parcel --open",
     "prebuild": "rm -rf dist",
-    "build": "parcel build"
+    "build": "parcel build --public-url ./"
   },
   "devDependencies": {
     "parcel": "^2.8.2"
