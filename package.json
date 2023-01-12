@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "source": "index.html",
+  "main": "dist/index.html",
   "scripts": {
     "start": "parcel --open",
     "prebuild": "rm -rf dist",
