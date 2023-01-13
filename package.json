@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "license": "MIT",
   "source": "index.html",
+  "homepage": "https://call007.github.io/ip-address-tracker/",
   "scripts": {
     "start": "parcel --open",
     "prebuild": "rm -rf dist",
-    "build": "parcel build --public-url ./"
+    "build": "parcel build --public-url ./",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "parcel": "^2.8.2"
   },
   "dependencies": {
