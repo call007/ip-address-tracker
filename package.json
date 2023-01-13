@@ -9,11 +9,13 @@
     "prebuild": "rm -rf dist",
     "build": "parcel build --public-url ./",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "gh-pages": "^4.0.0",
-    "parcel": "^2.8.2"
+    "parcel": "^2.8.2",
+    "husky": "^8.0.0"
   },
   "dependencies": {
     "leaflet": "^1.9.3"
