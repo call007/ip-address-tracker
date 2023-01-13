@@ -11,7 +11,8 @@ const ispInfo = document.querySelector("#isp");
 
 fetch("https://api.ipify.org")
   .then((resp) => resp.text())
-  .then(getData);
+  .then(getData)
+  .catch(console.error);
 
 ipForm.addEventListener("submit", function (e) {
   e.preventDefault();
@@ -47,7 +48,8 @@ function getData(ip) {
 
   fetch(apiUrl)
     .then((resp) => resp.json())
-    .then(setInfo);
+    .then(setInfo)
+    .catch(console.error);
 }
 
 function setInfo(data) {
