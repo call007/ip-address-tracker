@@ -19,6 +19,6 @@ You can do:
 ### Built with
 
 - HTML/CSS
-- Vanilla JavaScript
+- Vanilla JavaScript, Parcel
 - [LeafletJS](https://leafletjs.com/)
 - [IP Geolocation API by IPify.](https://github.com/call007/ip-address-tracker#:~:text=IP%20Geolocation%20API%20by%20IPify.)
