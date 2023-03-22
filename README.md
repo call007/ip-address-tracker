@@ -6,7 +6,7 @@ Demo: https://call007.github.io/ip-address-tracker/
 
 ## Welcome! 👋
 
-This front-end coding challenge I made is from [Frontend Mentor](https://www.frontendmentor.io).
+This front-end coding challenge I've made is from [Frontend Mentor](https://www.frontendmentor.io).
 
 ## About the challenge
 
